@@ -2,10 +2,51 @@
 <html>
     <head>
         <title>First Person</title>
+
+        <style>
+        table,th,tr{
+            border:1px solid black  ;
+            border-collapse: collapse;
+            
+        }
+        </style>
+        
     </head>
     <body>
         <h1>Welcome First Person</h1>
         <p>Please fill in the numbers</p>
+
+        <!--这边设计一个表格来记录每周所花费的时间-->
+        <table>
+            <tr>
+            <th>项目</th>
+            <th>星期六</th>
+            <th>星期日</th>
+            <th>星期一</th>
+            <th>星期二</th>
+            <th>星期三</th>
+            <th>星期四</th>
+            <th>星期五</th>
+            </tr>
+
+            <tr>
+                <th>
+                    <form> <input type="reset" name="saturday" value="0"> </form>
+                </th>
+                <th>
+                    <form> <input type="number" name="saturday" value="0"> </form>
+                </th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+
+
+
+        </table>
 
         <a href="../index.html"><button>Confirm</button></a>
         <a href="../index.html"><button>Back</button></a>
